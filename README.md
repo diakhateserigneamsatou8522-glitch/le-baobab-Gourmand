@@ -8,19 +8,19 @@ Il vise à offrir une expérience utilisateur fluide avec une interface élégan
 ## Aperçu du site
 ### Page d'accueil
 ![Capture de la page d'accueil](screenshot-accueil.png)
-![Capture de la page d'accueil](screenshot-accueil.png)
+![Capture de la page d'accueil](screenshot-accueil.png2)
 
 ### Page Menu
 ![Capture de la page Menu](screenshot-manu.png)
-![Capture de la page Menu](screenshot-manu.png)
+![Capture de la page Menu](screenshot-manu.png2)
 
 ### Page À propos
 ![Capture de la page À propos](screenshot-about.png)
-![Capture de la page À propos](screenshot-about.png)
+![Capture de la page À propos](screenshot-about.png2)
 
 ### Page Contact
 ![Capture de la page Contact](screenshot-contact.png)
-![Capture de la page Contact](screenshot-contact.png)
+![Capture de la page Contact](screenshot-contact.png2)
 
 ---
 
@@ -30,7 +30,7 @@ Il vise à offrir une expérience utilisateur fluide avec une interface élégan
 
 ## Site en ligne
 
-[Voir le site en ligne](https://diakhateserigneamsatou8522-glitch.github.io/le-baobab-gourmand/)
+[Voir le site en ligne]( https://diakhateserigneamsatou8522-glitch.github.io/le-baobab-Gourmand/)
 
 ---
 
@@ -164,7 +164,7 @@ Le site est adapté à tous les écrans :
 
 - Dr LY
 
-Le site sera disponible à : https://diakhateserigneamsatou8522-glitch.github.io/le-baobab-gourmand/
+Le site sera disponible à :  https://diakhateserigneamsatou8522-glitch.github.io/le-baobab-Gourmand/
 
 ---
 
