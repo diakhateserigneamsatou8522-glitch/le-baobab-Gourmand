@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Le Baobab Gourmand</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top" id="navbar-main" style="background-color: rgba(187,115,27,0.95);">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center text-white" href="index.html">
+                    <i class="bi bi-tree-fill me-2"></i>
+                    <span class="brand-text">Le Baobab Gourmand</span>
+                </a>
+                <button class="navbar-toggler border-light" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navMenu"
+                        aria-controls="navMenu"
+                        aria-expanded="false"
+                        aria-label="Ouvrir le menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navMenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="index.html">
+                                <i class="bi bi-house-door me-1"></i>Accueil
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white active" href="manu.html">
+                                <i class="bi bi-book me-1"></i>Menu
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="about.html">
+                                <i class="bi bi-info-circle me-1"></i>À propos
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="contact.html">
+                                <i class="bi bi-envelope me-1"></i>Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="page-banner d-flex align-items-center justify-content-center"
+                style="min-height: 40vh; background: url('cuisine.png') center/cover no-repeat; position: relative;">
+            <div style="position: absolute; top:0; left:0; right:0; bottom:0; background: linear-gradient(135deg, rgba(62,34,16,0.75), rgba(200,96,42,0.45));"></div>
+            <div class="container position-relative text-center text-white">
+                <p class="text-uppercase mb-2" style="letter-spacing: 3px; opacity: 0.9;">Cuisine Africaine</p>
+                <h1 class="display-4 fw-bold">NOTRE MENU</h1>
+            </div>
+        </section>
+
+        <section class="py-4" style="background-color: #bb731b;">
+            <div class="container text-center">
+                <p class="text-white col-lg-8 mx-auto" style="font-size: 20px;">
+                    <em>Le Baobab Gourmand</em>, un lieu chaleureux où tradition et modernité
+                    se rencontrent pour offrir une expérience culinaire unique. Nos plats sont préparés avec des
+                    ingrédients frais et locaux, soigneusement sélectionnés pour garantir qualité et saveur.
+                </p>
+            </div>
+        </section>
+
+        <section id="menu-section" class="py-5" style="background-color: #ba9770;">
+            <div class="container">
+
+                <div class="text-center mb-5">
+                    <span class="section-tag">Notre carte</span>
+                    <h2 class="section-title mb-4" style="color: white;">Découvrez nos plats</h2>
+                    <div class="filter-buttons">
+                        <button class="btn btn-brand filter-btn active" data-filter="all">
+                            <i class="bi bi-grid me-1"></i>Tous
+                        </button>
+                        <button class="btn btn-outline-brand filter-btn" data-filter="entree">
+                            <i class="bi bi-cup-hot me-1"></i>Entrées
+                        </button>
+                        <button class="btn btn-outline-brand filter-btn" data-filter="plat">
+                            <i class="bi bi-egg-fried me-1"></i>Plats
+                        </button>
+                        <button class="btn btn-outline-brand filter-btn" data-filter="dessert">
+                            <i class="bi bi-cake2 me-1"></i>Desserts
+                        </button>
+                        <button class="btn btn-outline-brand filter-btn" data-filter="boisson">
+                            <i class="bi bi-cup-straw me-1"></i>Boissons
+                        </button>
+                    </div>
+                </div>
+                <div class="row g-4" id="menu-grid">
+                    <div class="col-md-6 col-lg-4 menu-card" data-category="entree">
+                        <div class="card dish-card h-100 shadow-sm">
+                            <img src="ragou.png.jpeg" class="card-img-top" alt="Ragout d'Agneau">
+                            <div class="card-body">
+                                <span class="badge bg-success mb-2">Entrée</span>
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="card-title mb-0">Ragout</h5>
+                                        <span class="badge bg-brand">10 000 F</span>
+                                    </div>
+                                    <p class="card-text text-white small">
+                                    L'Éveil des Sens : Ragoût d'Agneau Fondant aux Patates DoucesLaissez-vous tenter
+                                    par ce plat emblématique, véritable invitation au voyage culinaire. 
+                                    Ce ragoût généreux met à l'honneur des morceaux d'agneau tendres
+                                    et savoureux, mijotés avec amour dans une sauce onctueuse aux reflets orangés  
+                                </p>
+                                <a href="contact.html#commande-section" class="btn btn-sm btn-outline-light w-100 mt-2">
+                                    <i class="bi bi-cart-plus me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 menu-card" data-category="entree">
+                        <div class="card dish-card h-100 shadow-sm">
+                            <img src="firire.jpg" class="card-img-top" alt="poisson frite croustillant">
+                            <div class="card-body">
+                                <span class="badge bg-success mb-2">Entrée</span>
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="card-title mb-0">frire</h5>
+                                    <span class="badge bg-brand">7 500F</span>
+                                </div>
+                                <p class="card-text text-white small">
+                                    Le poisson frit est une préparation culinaire croustillante, 
+                                    composée de poissons enrobés de farine, de panure ou de pâte, 
+                                    puis plongés dans de l'huile chaude. Il se caractérise par une chair tendre et 
+                                    juteuse à l'intérieur, contrastant avec une enveloppe dorée et croquante.
+                                </p>
+                                <a href="contact.html#commande-section" class="btn btn-sm btn-outline-light w-100 mt-2">
+                                    <i class="bi bi-cart-plus me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 menu-card" data-category="entree">
+                        <div class="card dish-card h-100 shadow-sm">
+                            <img src="ban.png" class="card-img-top" alt="Accras de morue croustillants">
+                            <div class="card-body">
+                                <span class="badge bg-success mb-2">Entrée</span>
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="card-title mb-0">Fruits</h5>
+                                    <span class="badge bg-brand">600 F</span>
+                                </div>
+                                <p class="card-text text-white small">
+                                Les fruits sont essentiels car ils apportent principalement de l'eau 
+                                pour l'hydratation et des fibres pour une bonne digestion. 
+                                Ils sont une source naturelle de vitamines 
+                                et d'antioxydants qui protègent le corps. 
+                                Enfin, leur sucre naturel fournit une énergie saine,
+                                à condition de les consommer entiers pour profiter de tous leurs bienfaits.        
+                                </p>
+                                <a href="contact.html#commande-section" class="btn btn-sm btn-outline-light w-100 mt-2">
+                                    <i class="bi bi-cart-plus me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 menu-card" data-category="entree">
+                        <div class="card dish-card h-100 shadow-sm">
+                            <img src="Nems.png" class="card-img-top" alt="Nems africains aux légumes">
+                            <div class="card-body">
+                                <span class="badge bg-success mb-2">Entrée</span>
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="card-title mb-0">Nems Africains</h5>
+                                    <span class="badge bg-brand">4 500 F</span>
+                                </div>
+                                <p class="card-text text-white small">
+                                    Rouleaux croustillants farcis aux légumes et viande hachée épicée.
+                                </p>
+                                <a href="contact.html#commande-section" class="btn btn-sm btn-outline-light w-100 mt-2">
+                                    <i class="bi bi-cart-plus me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 menu-card" data-category="plat">
+                        <div class="card dish-card h-100 shadow-sm">
+                            <img src="jen4.png" class="card-img-top" alt="Thiéboudienne, riz au poisson sénégalais">
+                            <div class="card-body">
+                                <span class="badge bg-warning text-dark mb-2">Plat</span>
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="card-title mb-0">Thiéboudienne</h5>
+                                    <span class="badge bg-brand">1 500 F</span>
+                                </div>
+                                <p class="card-text text-white small">
+                                    Riz au poisson fumé, légumes frais et sauce tomate épicée.
+                                </p>
+                                <a href="contact.html#commande-section" class="btn btn-sm btn-outline-light w-100 mt-2">
+                                    <i class="bi bi-cart-plus me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 menu-card" data-category="plat">
+                        <div class="card dish-card h-100 shadow-sm">
+                            <img src="yassa.png" class="card-img-top" alt="Yassa poulet aux oignons caramélisés">
+                            <div class="card-body">
+                                <span class="badge bg-warning text-dark mb-2">Plat</span>
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="card-title mb-0">Yassa Poulet</h5>
+                                    <span class="badge bg-brand">2 000 F</span>
+                                </div>
+                                <p class="card-text text-white small">
+                                    Poulet mariné au citron et oignons caramélisés, servi avec riz.
+                                </p>
+                                <a href="contact.html#commande-section" class="btn btn-sm btn-outline-light w-100 mt-2">
+                                    <i class="bi bi-cart-plus me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 menu-card" data-category="plat">
+                        <div class="card dish-card h-100 shadow-sm">
+                            <img src="domo.png" class="card-img-top" alt="Domoda, viande en sauce arachide">
+                            <div class="card-body">
+                                <span class="badge bg-warning text-dark mb-2">Plat</span>
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="card-title mb-0">Domoda</h5>
+                                    <span class="badge bg-brand">4 500 F</span>
+                                </div>
+                                <p class="card-text text-white small">
+                                    Sauce onctueuse à base de tomate, liée avec de la farine et relevée au citron.
+                                </p>
+                                <a href="contact.html#commande-section" class="btn btn-sm btn-outline-light w-100 mt-2">
+                                    <i class="bi bi-cart-plus me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 menu-card" data-category="plat">
+                        <div class="card dish-card h-100 shadow-sm">
+                            <img src="soupe.png" class="card-img-top" alt="Soupp Kandia, soupe aux fruits de mer">
+                            <div class="card-body">
+                                <span class="badge bg-warning text-dark mb-2">Plat</span>
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="card-title mb-0">Soupp Kandia</h5>
+                                    <span class="badge bg-brand">3 500 F</span>
+                                </div>
+                                <p class="card-text text-white small">
+                                    Soupe à base de fruits de mer secs au goût incroyable.
+                                </p>
+                                <a href="contact.html#commande-section" class="btn btn-sm btn-outline-light w-100 mt-2">
+                                    <i class="bi bi-cart-plus me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 menu-card" data-category="dessert">
+                        <div class="card dish-card h-100 shadow-sm">
+                            <img src="gâteau.png" class="card-img-top" alt="Gâteau au jus de citron">
+                            <div class="card-body">
+                                <span class="badge bg-info text-dark mb-2">Dessert</span>
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="card-title mb-0">Gâteau au Citron</h5>
+                                    <span class="badge bg-brand">3 000 F</span>
+                                </div>
+                                <p class="card-text text-white small">
+                                    Gâteau au goût doux et délicieux, un dessert léger et rafraîchissant.
+                                </p>
+                                <a href="contact.html#commande-section" class="btn btn-sm btn-outline-light w-100 mt-2">
+                                    <i class="bi bi-cart-plus me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 menu-card" data-category="dessert">
+                        <div class="card dish-card h-100 shadow-sm">
+                            <img src="deser.png" class="card-img-top" alt="Thiakry, dessert au mil et yaourt">
+                            <div class="card-body">
+                                <span class="badge bg-info text-dark mb-2">Dessert</span>
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="card-title mb-0">Thiakry</h5>
+                                    <span class="badge bg-brand">3 000 F</span>
+                                </div>
+                                <p class="card-text text-white small">
+                                    Dessert crémeux au mil, yaourt sucré et noix de coco râpée.
+                                </p>
+                                <a href="contact.html#commande-section" class="btn btn-sm btn-outline-light w-100 mt-2">
+                                    <i class="bi bi-cart-plus me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 menu-card" data-category="dessert">
+                        <div class="card dish-card h-100 shadow-sm">
+                            <img src="choco.png" class="card-img-top" alt="Gâteau au chocolat fondant">
+                            <div class="card-body">
+                                <span class="badge bg-info text-dark mb-2">Dessert</span>
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="card-title mb-0">Gâteau au Chocolat</h5>
+                                    <span class="badge bg-brand">2 700 F</span>
+                                </div>
+                                <p class="card-text text-white small">
+                                    Un véritable plaisir qui libère des arômes intenses à chaque bouchée.
+                                </p>
+                                <a href="contact.html#commande-section" class="btn btn-sm btn-outline-light w-100 mt-2">
+                                    <i class="bi bi-cart-plus me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 menu-card" data-category="dessert">
+                        <div class="card dish-card h-100 shadow-sm">
+                            <img src="salad.png" class="card-img-top" alt="Salade de fruits frais colorée">
+                            <div class="card-body">
+                                <span class="badge bg-info text-dark mb-2">Dessert</span>
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="card-title mb-0">Salade de Fruits</h5>
+                                    <span class="badge bg-brand">4 000 F</span>
+                                </div>
+                                <p class="card-text text-white small">
+                                    Mélange coloré et rafraîchissant de fruits soigneusement sélectionnés.
+                                </p>
+                                <a href="contact.html#commande-section" class="btn btn-sm btn-outline-light w-100 mt-2">
+                                    <i class="bi bi-cart-plus me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 menu-card" data-category="boisson">
+                        <div class="card dish-card h-100 shadow-sm">
+                            <img src="bissape.png" class="card-img-top" alt="Jus de bissap rouge frais">
+                            <div class="card-body">
+                                <span class="badge bg-danger mb-2">Boisson</span>
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="card-title mb-0">Jus de Bissap</h5>
+                                    <span class="badge bg-brand">500 F</span>
+                                </div>
+                                <p class="card-text text-white small">
+                                    Boisson traditionnelle préparée à partir de fleurs d'hibiscus infusées.
+                                </p>
+                                <a href="contact.html#commande-section" class="btn btn-sm btn-outline-light w-100 mt-2">
+                                    <i class="bi bi-cart-plus me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 menu-card" data-category="boisson">
+                        <div class="card dish-card h-100 shadow-sm">
+                            <img src="bouy.png" class="card-img-top" alt="Jus de bouye crémeux">
+                            <div class="card-body">
+                                <span class="badge bg-danger mb-2">Boisson</span>
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="card-title mb-0">Jus de Bouye</h5>
+                                    <span class="badge bg-brand">1 000 F</span>
+                                </div>
+                                <p class="card-text text-white small">
+                                    Naturellement riche et légèrement acidulé, il séduit par son goût unique.
+                                </p>
+                                <a href="contact.html#commande-section" class="btn btn-sm btn-outline-light w-100 mt-2">
+                                    <i class="bi bi-cart-plus me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 menu-card" data-category="boisson">
+                        <div class="card dish-card h-100 shadow-sm">
+                            <img src="mang.png" class="card-img-top" alt="Jus de mangue frais pressé">
+                            <div class="card-body">
+                                <span class="badge bg-danger mb-2">Boisson</span>
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="card-title mb-0">Jus de Mangue</h5>
+                                    <span class="badge bg-brand">1 000 F</span>
+                                </div>
+                                <p class="card-text text-white small">
+                                    Préparé à partir de mangues mûres et juteuses pour un goût tropical.
+                                </p>
+                                <a href="contact.html#commande-section" class="btn btn-sm btn-outline-light w-100 mt-2">
+                                    <i class="bi bi-cart-plus me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 menu-card" data-category="boisson">
+                        <div class="card dish-card h-100 shadow-sm">
+                            <img src="manth.png" class="card-img-top" alt="Jus de menthe rafraîchissant">
+                            <div class="card-body">
+                                <span class="badge bg-danger mb-2">Boisson</span>
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="card-title mb-0">Jus de Menthe</h5>
+                                    <span class="badge bg-brand">1 000 F</span>
+                                </div>
+                                <p class="card-text text-white small">
+                                    Boisson légère et intensément rafraîchissante à la menthe fraîche.
+                                </p>
+                                <a href="contact.html#commande-section" class="btn btn-sm btn-outline-light w-100 mt-2">
+                                    <i class="bi bi-cart-plus me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-section text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <h5 class="footer-title">
+                        <i class="bi bi-tree-fill me-2 text-white"></i>Le Baobab Gourmand
+                    </h5>
+                    <p class="footer-text">Cuisine africaine moderne au coeur de Touba.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="footer-title">Navigation</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="footer-link">Accueil</a></li>
+                        <li><a href="manu.html" class="footer-link">Menu</a></li>
+                        <li><a href="about.html" class="footer-link">À propos</a></li>
+                        <li><a href="contact.html" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="footer-title">Horaires</h5>
+                    <p class="footer-text mb-1"><i class="bi bi-clock me-1"></i> Lun - Sam : 11h30 - 23h00</p>
+                    <p class="footer-text mb-1"><i class="bi bi-clock me-1"></i> Dimanche : 12h00 - 22h00</p>
+                    <p class="footer-text mt-3"><i class="bi bi-geo-alt me-1"></i> Touba Darou Minam, Sénégal</p>
+                    <p class="footer-text"><i class="bi bi-telephone me-1"></i> +221 77 855 98 62 / 70 779 03 23<br>/ 78 431 06 82 / 78 666 99 37</p>
+                </div>
+            </div>
+            <hr class="footer-hr mt-4">
+            <p class="text-center mb-0 footer-copyright">
+                &copy; 2026 Le Baobab Gourmand. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    
+    <button id="btn-top" class="btn-back-to-top" title="Retour en haut">
+        <i class="bi bi-arrow-up-short"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

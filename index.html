@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil | Le Baobab Gourmand</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top" id="navbar-main" style="background-color: rgba(187,115,27,0.95);">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center text-white" href="index.html">
+                    <i class="bi bi-tree-fill me-2"></i>
+                    <span>Le Baobab Gourmand</span>
+                </a>
+                <button class="navbar-toggler border-light" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#menu"
+                        aria-controls="menu"
+                        aria-expanded="false"
+                        aria-label="Ouvrir le menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-white active" href="index.html" style="background-color: #bb731b;">
+                                <i class="bi bi-house-door me-1"></i>Accueil
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="manu.html" style="background-color: #bb731b;">
+                                <i class="bi bi-book me-1"></i>Menu
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="about.html" style="background-color: #bb731b;">
+                                <i class="bi bi-info-circle me-1"></i>À propos
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="contact.html" style="background-color: #bb731b;">
+                                <i class="bi bi-envelope me-1"></i>Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="hero" class="hero-section d-flex align-items-center" 
+        style="background: url(jen.png.jpg) center/cover no-repeat; min-height: 85vh; position: relative;">
+    <div class="hero-overlay"></div>
+    <div class="container position-relative">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-lg-6 text-white text-center text-lg-start">
+                <span class="section-tag">Bienvenue au Baobab</span>
+                <h1 class="section-title display-5 fw-bold mb-3">Savourez l'âme de l'Afrique</h1>
+                <p class="mb-4">Découvrez des plats créatifs et généreux, préparés avec des ingrédients locaux et un savoir-faire authentique.</p>
+                <div class="d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start gap-3">
+                    <a href="manu.html" class="btn btn-brand btn-lg">
+                        <i class="bi bi-book me-2"></i>Découvrir le menu
+                    </a>
+                    <a href="contact.html" class="btn btn-outline-light btn-lg rounded-pill">
+                        <i class="bi bi-calendar-check me-2"></i>Réserver
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-5 mt-4 mt-lg-0 text-center">
+                <img src="cuisine.png" alt="Accueil du restaurant Le Baobab Gourmand" 
+                    class="img-fluid hero-cuisine-img">
+            </div>
+        </div>
+    </div>
+</section>
+        <section id="spacer" style="height: 4rem; background-color: #ba9770;"></section>
+        <section id="presentation" class="py-5" style="background-color: #bb731b;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <span class="section-tag text-white">Bienvenue</span>
+                        <h1 class="section-title text-white">Une expérience culinaire unique</h1>
+                        <p class="text-white" style="font-size: 20px;">
+                            Le Baobab Gourmand vous invite à découvrir les saveurs authentiques de l'Afrique,
+                            réinterprétées avec créativité et finesse. Nos plats racontent l'histoire d'un
+                            continent riche en traditions culinaires, servis dans un cadre chaleureux et moderne.
+                        </p>
+                        <div class="row mt-4 text-center" style="color: white;">
+                            <div class="col-4">
+                                <div class="stat-number" style="color: white;">35+</div>
+                                <div class="stat-label" style="color: white;">Plats signatures</div>
+                            </div>
+                            <div class="col-4">
+                                <div class="stat-number" style="color: white;">100+</div>
+                                <div class="stat-label" style="color: white;">Chefs experts</div>
+                            </div>
+                            <div class="col-4">
+                                <div class="stat-number" style="color: white;">100%</div>
+                                <div class="stat-label" style="color: white;">Produits frais et locaux</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <img src="res.png.jpg" alt="Intérieur chaleureux du restaurant Le Baobab Gourmand" 
+                        class="img-fluid rounded shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="plats-vedettes" class="py-5" style="background-color: #bb731b;">
+            <div class="container" style="background-color: #ba9770;">
+                <div class="text-center mb-5 text-white">
+                    <span class="section-tag">Nos vedettes</span>
+                    <h2 class="section-title">Plats Signatures</h2>
+                </div>
+                <div id="carouselPlats" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselPlats" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Plat 1"></button>
+                        <button type="button" data-bs-target="#carouselPlats" data-bs-slide-to="1" aria-label="Plat 2"></button>
+                        <button type="button" data-bs-target="#carouselPlats" data-bs-slide-to="2" aria-label="Plat 3"></button>
+                        <button type="button" data-bs-target="#carouselPlats" data-bs-slide-to="3" aria-label="Plat 4"></button>
+                    </div>
+                    <div class="carousel-inner rounded shadow-lg" style="background-color: #bb731b;">
+                        <div class="carousel-item active" data-bs-interval="0.5">
+                            <div class="d-flex">
+                                <img src="jen4.png" class="w-25 carousel-img"
+                                alt="Thiéboudienne royal servi dans un plat traditionnel">
+                                <img src="jen4.png" class="w-25 carousel-img"
+                                alt="Yassa poulet doré aux oignons caramélisés">
+                            </div>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Thiéboudienne Royal</h3>
+                                <p>Le plat national sénégalais revisité avec des poissons nobles et des légumes de saison</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="0.5">
+                            <div class="d-flex">
+                                <img src="vian.png" class="d-block w-25 carousel-img" alt="Une recette simple et savoureuse"/>
+                                <img src="poulet.png" class="w-25 carousel-img"
+                                alt="Poulet doré aux oignons caramélisés">
+                            </div>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Viande & Poulet grillée</h3>
+                                <p>C'est une préparation culinaire consistant à saisir une pièce de boucherie à feu <br>
+                                    pour obtenir une croûte savoureuse tout en préservant un cœur tendre et juteux.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="0.5">
+                            <div class="d-flex">
+                                <img src="boisson.png" class="w-25 carousel-img"
+                                alt="Boisson rafraîchissante du restaurant">
+                                <img src="dessert.png" class="w-25 carousel-img"
+                                alt="Dessert somptueux fait maison">
+                            </div>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Desserts somptueux</h3>
+                                <p>Les desserts apportent une note finale indispensable au repas,<br> 
+                                    jouant des rôles nutritionnels, psychologiques et sociaux.</p>
+                            </div>
+                        </div>                       
+                        <div class="carousel-item" data-bs-interval="0.5">
+                            <div class="d-flex">
+                            <img src="boudd.png" class="d-block w-25 carousel-img"
+                            alt="Buddha bowlun,plat végétarien ou végétalien">
+                                <img src="boud.png" class="w-25 carousel-img"
+                                alt="Dessert somptueux fait maison">
+                            </div>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Buddha bowl</h3>
+                                <p>un plat végétarien ou végétalien servi dans un bol,<br> 
+                                    composé d’une combinaison équilibrée <br> 
+                                    d’ingrédients crus et cuits.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPlats" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Précédent</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselPlats" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Suivant</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="coups-de-coeur" class="py-5" style="background-color: #ba9770;">
+            <div class="container">
+                <div class="text-center mb-5" style="background-color: #bb731b; padding: 2rem; border-radius: 8px;">
+                    <span class="section-tag text-white">À la carte</span>
+                    <h2 class="section-title text-white">Nos Coups de Cœur</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card dish-card h-100 shadow-sm">
+                            <img src="ikong.png" class="card-img-top" 
+                            alt="L'edikang ikong est une soupe de légumes à base d' ikong ubong">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="card-title mb-xxl-4">Edikang ikong</h5>
+                                </div>
+                                <p class="card-text text-white">
+                                    <strong>L'edikang ikong</strong> est une soupe de légumes à base d' ikong ubong , 
+                                    originaire des peuples Efik de l'État de Cross River et Ibibio de l'État d'Akwa Ibom au Nigéria. 
+                                    Considérée comme un mets de choix par certains Nigérians,
+                                    elle est parfois servie lors d'occasions importantes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card dish-card h-100 shadow-sm">
+                            <img src="boudd.png" class="card-img-top" alt="Yassa poulet aux oignons et citron">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="card-title mb-xxl-4">Buddha bowl</h5>
+                                </div>
+                                <p class="card-text text-white">
+                                le <strong>Buddha bowl</strong> est un plat végétarien ou végétalien servi dans un bol, 
+                                composé d’une combinaison équilibrée d’ingrédients crus et cuits.
+                                Il contient généralement une base de céréales (comme le riz ou le quinoa), des légumes variés, 
+                                des légumineuses ou une source de protéines (tofu, œufs), et parfois des sauces ou toppings.
+                                C’est un plat sain, coloré et personnalisable, adapté aux saisons et aux goûts de chacun.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card dish-card h-100 shadow-sm">
+                            <img src="jen4.png" class="card-img-top" alt="Mafé d'agneau avec sauce arachide">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-xxl-6">
+                                    <h5 class="card-title mb-0">Ceebu jen</h5>
+                                </div>
+                                <p class="card-text text-white">
+                                    Le ceebu jën (ou thiéboudiène) est le plat national du Sénégal, originaire de Saint-Louis.
+                                    Il se compose principalement de riz, de poisson frais (ou séché), de légumes (carottes, choux, manioc, 
+                                    aubergines) 
+                                    et de concentré de tomate, le tout mijoté avec des épices. 
+                                    Inscrit au patrimoine immatériel de l'UNESCO, 
+                                    il incarne la « Téranga » (hospitalité) sénégalaise et se partage souvent dans un grand plat commun.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card dish-card h-100 shadow-sm">
+                            <img src="mbaxal.png" class="card-img-top" alt="Mafé d'agneau avec sauce arachide">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="card-title mb-0">Mbaxal</h5>
+                                </div>
+                                <p class="card-text text-white">
+                                    Le mbaxal est un plat traditionnel sénégalais à base de riz, 
+                                    caractérisé par une texture fondante et onctueuse (proche du risotto). 
+                                    Il se décline en deux versions principales : <br>
+                                    <strong>Mbaxalou Saloum :</strong> La version la plus célèbre, cuisinée avec de la poudre d'arachide, 
+                                    des fruits de mer séchés (yokhoss, pagne) et du niébé (haricots). C'est un plat riche au goût de noisette. <br>
+                                    <strong>Mbaxalou Puc-paac:</strong> Une variante à la viande, très parfumée et relevée,
+                                    où le riz est volontairement très cuit et moelleux.
+                                    L'essentiel : C'est un plat rustique, généreux en condiments traditionnels (nététou, yët), 
+                                    qui privilégie la saveur profonde des produits du terroir.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card dish-card h-100 shadow-sm">
+                            <img src="yassa.png" class="card-img-top" alt="Mafé d'agneau avec sauce arachide">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="card-title mb-0">Yassa</h5>
+                                </div>
+                                <p class="card-text text-white">
+                                    Le <strong>Yassa</strong> est un plat sénégalais emblématique, originaire de Casamance, 
+                                    célèbre pour sa saveur acidulée et pimentée.
+                                    Voici l'essentiel à retenir : <br>
+                                    <strong>Le concept :</strong> Un confit d'oignons caramélisés, 
+                                    généreusement relevé au citron et à la moutarde. <br>
+                                    <strong>Les variantes :</strong> Se prépare principalement au poulet (Yassa Ginar)
+                                    ou au poisson (Yassa Jën). <br>
+                                    <strong>La technique :</strong> La viande ou le poisson est mariné,
+                                    puis grillé avant d'être mijoté dans la sauce aux oignons. <br>
+                                    <strong>L'accompagnement :</strong> Se sert toujours avec
+                                    du riz blanc nature (riz basmati ou riz cassé).
+                                    C'est un plat vif, savoureux et plus 
+                                    simple à réaliser que le ceebu jën.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="temoignages" class="py-5" style="background-color: #ba9770;">
+            <div class="container">
+                <div class="text-center mb-5" style="background-color: #bb731b;">
+                    <span class="section-tag text-white">Avis clients</span>
+                    <h2 class="section-title text-white">Ce qu'ils en disent</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card testimonial-card h-100 shadow-sm border-0">
+                            <div class="card-body text-center p-4" style="color: #ffd700;">
+                                <div class="testimonial-stars mb-3">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                                <p class="card-text fst-italic">
+                                    "Une expérience culinaire exceptionnelle ! Le Thiéboudienne est le meilleur
+                                    que j'ai goûté à Touba. L'ambiance est chaleureuse et le service impeccable."
+                                </p>
+                                <h6 class="mt-3 mb-0 fw-bold">Halimatou KOUROUMA</h6>
+                                <small class="text-gold">Ingénieur en  cybersecurité </small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card testimonial-card h-100 shadow-sm border-0">
+                            <div class="card-body text-center p-4" style="color: #ffd700;">
+                                <div class="testimonial-stars mb-3">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                </div>
+                                <p class="card-text fst-italic">
+                                    "L'edikang ikong est un pur délice. Les saveurs sont parfaitement équilibrées.
+                                    Je recommande vivement à tous les amoureux de la cuisine africaine."
+                                </p>
+                                <h6 class="mt-3 mb-0 fw-bold">Serigne Amsatou DIAKHATE</h6>
+                                <small class="text-gold">Blogueur & Specialiste de la cuisine africaine</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card testimonial-card h-100 shadow-sm border-0">
+                            <div class="card-body text-center p-4" style="color: #ffd700;">
+                                <div class="testimonial-stars mb-3">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                                <p class="card-text fst-italic">
+                                    "Cadre magnifique, cuisine raffinée et personnel adorable. Le Baobab Gourmand
+                                    est devenu notre restaurant préféré pour les occasions spéciales."
+                                </p>
+                                <h6 class="mt-3 mb-0 fw-bold">Lotha DIOP</h6>
+                                <small class="text-gold">Architecte d'intérieur</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card testimonial-card h-100 shadow-sm border-0">
+                            <div class="card-body text-center p-4" style="color: #ffd700;">
+                                <div class="testimonial-stars mb-3">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                                <p class="card-text fst-italic">
+                                    "J’ai passé un excellent moment au Baobab Gourmand ! Le cadre est agréable et l’ambiance très conviviale. 
+                                    Les plats sont vraiment délicieux, bien présentés et préparés avec soin.
+                                    "Le personnel est accueillant et toujours disponible, ce qui rend l’expérience encore plus agréable. 
+                                    C’est l’endroit idéal pour déjeuner ou dîner tranquillement. Je recommande vivement !"
+                                </p>
+                                <h6 class="mt-3 mb-0 fw-bold">Sokhena Maye DIONNE</h6>
+                                <small class="text-gold">Commerçante </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-section ">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <h5 class="footer-title">
+                        <i class="bi bi-tree-fill me-2 text-white"></i>Le Baobab Gourmand
+                    </h5>
+                    <p class="small" style="color: white">
+                        Cuisine africaine moderne au cœur de Touba. Une expérience culinaire
+                        qui célèbre les saveurs du continent.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="footer-title">Navigation</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="footer-link">Accueil</a></li>
+                        <li><a href="manu.html" class="footer-link">Menu</a></li>
+                        <li><a href="about.html" class="footer-link">À propos</a></li>
+                        <li><a href="contact.html" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="footer-title">Horaires</h5>
+                    <p class="small mb-1" style="color: rgba(255,255,255,0.7);">
+                        <i class="bi bi-clock me-1"></i> Lundi - Samedi : 11h30 - 23h00
+                    </p>
+                    <p class="small mb-1" style="color: rgba(255,255,255,0.7);">
+                        <i class="bi bi-clock me-1"></i> Dimanche : 12h00 - 22h00
+                    </p>
+                    <p class="small mt-3" style="color: rgba(255,255,255,0.7);">
+                        <i class="bi bi-geo-alt me-1"></i>Touba, Darou Minam, sénégal
+                    </p>
+                    <p class="small" style="color: rgba(255,255,255,0.7);">
+                        <i class="bi bi-telephone me-1"></i> +221 77 855 98 62 / 70 779 03 23
+                                                            / 78 431 06 82 / 78 666 99 37
+                    </p>
+                </div>
+            </div>
+            <hr style="border-color: rgba(255,255,255,0.2);" class="mt-4">
+            <p class="text-center mb-0 small" style="color: rgba(255,255,255,0.5);">
+                &copy; 2026 Le Baobab Gourmand. Tous droits réservés.
+            </p>
+        </div>
+    </footer>
+    <button id="btn-top" class="btn-back-to-top bi-border-style bi-backpack3" title="Retour en haut">
+        <i class="bi bi-arrow-up-short"></i>
+    </button>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
