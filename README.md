@@ -1,9 +1,9 @@
-
+# Le Baobab Gourmand
+---
 Site vitrine d'un restaurant de cuisine africaine moderne situé à Touba, Sénégal.
 Projet réalisé dans le cadre du module Développement Web Front-End.
 Il vise à offrir une expérience utilisateur fluide avec une interface élégante et entièrement responsive.
 ---
-
 ## Aperçu du site
 
 ## 📸 Aperçu du site
