@@ -1,4 +1,3 @@
-# Le Baobab Gourmand
 
 Site vitrine d'un restaurant de cuisine africaine moderne situé à Touba, Sénégal.
 Projet réalisé dans le cadre du module Développement Web Front-End.
@@ -6,29 +5,16 @@ Il vise à offrir une expérience utilisateur fluide avec une interface élégan
 ---
 
 ## Aperçu du site
-### Page d'accueil
-![Capture de la page d'accueil](<img width="488" height="9107" alt="screenshot-accueil png" src="https://github.com/user-attachments/assets/088e1a21-3021-430d-bcc3-9a40b37e0d6f" />)
 
-![Capture de la page d'accueil](<img width="488" height="1055" alt="screenshot-accueil png (2)" src="https://github.com/user-attachments/assets/fc9efb30-951d-45ba-ae7c-caa663d0c3b8" />)
-
-
-### Page Menu
-![Capture de la page Menu](<img width="960" height="1280" alt="screenshot-manu png" src="https://github.com/user-attachments/assets/9e7e6497-af19-46df-ba0b-f03273f67199" />)
-
-![Capture de la page Menu](<img width="960" height="6235" alt="screenshot-manu png (3)" src="https://github.com/user-attachments/assets/bdcaa2be-bafe-4e45-9cd0-9498b8534272" />)
+## 📸 Aperçu du site
+<img width="488" height="9159" alt="iPhone 12 Pro-1777914188312" src="https://github.com/user-attachments/assets/a199e257-c838-43d4-9b2a-10f13a4f4b85" />
+<img width="960" height="6235" alt="iPad-1777914223796" src="https://github.com/user-attachments/assets/78c8a4a7-fce1-461f-8c72-9d89a1e05e13" />
+<img width="1800" height="5102" alt="MacBook Pro-1777914284082" src="https://github.com/user-attachments/assets/411e1d58-16ee-4869-861f-bbbcdf4b2a45" />
+<img width="450" height="5005" alt="Galaxy S21-1777914339545" src="https://github.com/user-attachments/assets/82031ae3-249c-4bc7-98a1-d25be4d6fc6f" />
 
 
-### Page À propos
-![Capture de la page À propos](<img width="488" height="1055" alt="screenshot-about png" src="https://github.com/user-attachments/assets/fd31c1be-3d2f-403d-ac75-31a014d9bab0" />)
 
-![Capture de la page À propos](<img width="488" height="8100" alt="screenshot-about png (2)" src="https://github.com/user-attachments/assets/cac54211-0454-4919-8cfe-97d39b39e8cf" />)
-
-
-### Page Contact
-![Capture de la page Contact](<img width="960" height="4565" alt="screenshot-contact png" src="https://github.com/user-attachments/assets/3165b579-86d5-48e4-8a4d-de596e72cc84" />)
-
-![Capture de la page Contact](<img width="488" height="8100" alt="screenshot-about png (2)" src="https://github.com/user-attachments/assets/17232bb0-2556-4c0e-9850-83fdfebd3593" />)
-
+ 
 
 ---
 
