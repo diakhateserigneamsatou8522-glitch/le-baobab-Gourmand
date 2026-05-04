@@ -7,20 +7,28 @@ Il vise à offrir une expérience utilisateur fluide avec une interface élégan
 
 ## Aperçu du site
 ### Page d'accueil
-![Capture de la page d'accueil](screenshot-accueil.png)
-![Capture de la page d'accueil](screenshot-accueil.png2)
+![Capture de la page d'accueil](<img width="488" height="9107" alt="screenshot-accueil png" src="https://github.com/user-attachments/assets/088e1a21-3021-430d-bcc3-9a40b37e0d6f" />)
+
+![Capture de la page d'accueil](<img width="488" height="1055" alt="screenshot-accueil png (2)" src="https://github.com/user-attachments/assets/fc9efb30-951d-45ba-ae7c-caa663d0c3b8" />)
+
 
 ### Page Menu
-![Capture de la page Menu](screenshot-manu.png)
-![Capture de la page Menu](screenshot-manu.png2)
+![Capture de la page Menu](<img width="960" height="1280" alt="screenshot-manu png" src="https://github.com/user-attachments/assets/9e7e6497-af19-46df-ba0b-f03273f67199" />)
+
+![Capture de la page Menu](<img width="960" height="6235" alt="screenshot-manu png (3)" src="https://github.com/user-attachments/assets/bdcaa2be-bafe-4e45-9cd0-9498b8534272" />)
+
 
 ### Page À propos
-![Capture de la page À propos](screenshot-about.png)
-![Capture de la page À propos](screenshot-about.png2)
+![Capture de la page À propos](<img width="488" height="1055" alt="screenshot-about png" src="https://github.com/user-attachments/assets/fd31c1be-3d2f-403d-ac75-31a014d9bab0" />)
+
+![Capture de la page À propos](<img width="488" height="8100" alt="screenshot-about png (2)" src="https://github.com/user-attachments/assets/cac54211-0454-4919-8cfe-97d39b39e8cf" />)
+
 
 ### Page Contact
-![Capture de la page Contact](screenshot-contact.png)
-![Capture de la page Contact](screenshot-contact.png2)
+![Capture de la page Contact](<img width="960" height="4565" alt="screenshot-contact png" src="https://github.com/user-attachments/assets/3165b579-86d5-48e4-8a4d-de596e72cc84" />)
+
+![Capture de la page Contact](<img width="488" height="8100" alt="screenshot-about png (2)" src="https://github.com/user-attachments/assets/17232bb0-2556-4c0e-9850-83fdfebd3593" />)
+
 
 ---
 
