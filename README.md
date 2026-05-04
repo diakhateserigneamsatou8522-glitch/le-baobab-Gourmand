@@ -7,10 +7,14 @@ Il vise à offrir une expérience utilisateur fluide avec une interface élégan
 ## Aperçu du site
 
 ## 📸 Aperçu du site
-<img width="488" height="9159" alt="iPhone 12 Pro-1777914188312" src="https://github.com/user-attachments/assets/a199e257-c838-43d4-9b2a-10f13a4f4b85" />
+<img width="492" height="1065" alt="iPhone 17 Pro-1777914686290" src="https://github.com/user-attachments/assets/83893627-db53-43b6-bf9c-b3ff610c6d76" />
+<img width="1800" height="1125" alt="MacBook Pro-1777914776185" src="https://github.com/user-attachments/assets/c0f3e1a3-de19-4337-8697-6f151c753061" />
 <img width="960" height="6235" alt="iPad-1777914223796" src="https://github.com/user-attachments/assets/78c8a4a7-fce1-461f-8c72-9d89a1e05e13" />
+<img width="1800" height="1125" alt="MacBook Pro-1777914840310" src="https://github.com/user-attachments/assets/d17704d2-1bcd-48e4-bc08-ec4c14eaf0de" />
 <img width="1800" height="5102" alt="MacBook Pro-1777914284082" src="https://github.com/user-attachments/assets/411e1d58-16ee-4869-861f-bbbcdf4b2a45" />
+<img width="1800" height="1125" alt="MacBook Pro-1777914890484" src="https://github.com/user-attachments/assets/955f926b-598e-4c6a-82c0-5791022edbe2" />
 <img width="450" height="5005" alt="Galaxy S21-1777914339545" src="https://github.com/user-attachments/assets/82031ae3-249c-4bc7-98a1-d25be4d6fc6f" />
+<img width="1800" height="1125" alt="MacBook Pro-1777914932513" src="https://github.com/user-attachments/assets/fd20f430-a707-4b83-8700-d3ff5e292b01" />
 
 
 
